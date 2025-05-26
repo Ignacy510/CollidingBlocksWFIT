@@ -1,6 +1,6 @@
 # Projekt zaliczeniowy WFIT 2025L <br /> Szymon Prusaczyk, Ignacy Kopka
 
----
+
 ## Aproksymacja liczby π poprzez zderzające się bloki
 
 Program napisany przez nas jest symulacją zderzeń dwóch ciał, oraz ściany.<br />
@@ -14,7 +14,7 @@ Praca opisuje sytuację, w której dwa ciała, z których jedno ma masę dowonle
 odbijają się idealnie sprężyście oraz bez tarcia od siebie i od ściany. W takiej sytuacji liczba ich odbić będzie
 przedstawiała kolejne cyfry liczby π.
 ![img.png](readmeData/img.png)
----
+
 ## Opis Działania Symulacji
 
 Symulacja jest napisany w pythonie z użyciem biblioteki pygame do wizualizacji zderzeń.
@@ -68,7 +68,7 @@ if self.block1.x <= self.wall_x:
 ```
 gdzie zmieniamy zwrot wektora prędkości bloku podczas wykrycia zderzenia ze ścianą.
 
----
+
 ### Działanie w formie cyfrowej
 
 Komputer nie jest w stanie symulować ciągłego przedziału czasu i zasymulować 1:1 świata rzeczywistego,
@@ -108,7 +108,7 @@ na sekundę.
 Jest to bardzo nieoptymalny sposób wyznaczania liczyb π, ilość kroków potrzebnych do obliczń rośnie na tyle szybko, że już dla 7 cyfr program zaczyna działać bardzo wolno,
 a powyżej 7 cyfr przestaje działać całkowicie.
 
----
+
 ### Co się dzieje w każdym kroku czasowym?
 
 W każdym kroku czasowym odbywają się 3 kluczowe czynności:
@@ -138,7 +138,7 @@ self.block1.update()
 self.block2.update()
 ```
 
----
+
 
 ### Zliczanie zderzeń
 
@@ -167,7 +167,7 @@ if self.block1.x <= self.wall_x:
 W obu przypadkach licznik `self.collisions` zwiększa się o 1.
 Na koniec liczba zderzeń odpowiada kolejnym cyfrom liczby π.
 
----
+
 ## Działanie Symulacji
 
 Poniżej zamieszczony jest .gif przedstawiający działanie symulacji oraz link do filmu na youtube.
