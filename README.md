@@ -170,14 +170,20 @@ Na koniec liczba zderzeń odpowiada kolejnym cyfrom liczby π.
 ---
 ## Działanie Symulacji
 
-[![Obejrzyj na YouTube](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/gTFYmqfvw9Y)
+Poniżej zamieszczony jest .gif przedstawiający działanie symulacji oraz link do filmu na youtube.
 
+
+![nagraniekodu.gif](readmeData/nagraniekodu.gif)
+
+[Wideo w serwisie YouTube](https://youtu.be/gTFYmqfvw9Y)
 
 #### Dla wyznaczenia 6 cyfr liczby wynikiem jest 314159.
 
 ![img.png](readmeData/img2.png)
 
 π = **3,14159**2653589... jesteśmy, więc w stanie stwierdzić, że symulacja wyznacza cyfry liczby pi w poprawny sposób.
+
+Podobnie sprawdza się to również dla każdej liczby cyfr poniżej 6. Nie udało się nam niestety uzyskać wyniku dla 7 cyfr liczby π.
 
 
 
