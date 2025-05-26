@@ -17,7 +17,7 @@ przedstawiała kolejne cyfry liczby π.
 
 ## Opis Działania Symulacji
 
-Symulacja jest napisany w pythonie z użyciem biblioteki pygame do wizualizacji zderzeń.
+Symulacja jest napisana w pythonie z użyciem biblioteki pygame do wizualizacji oraz obsługi dźwięku.
 
 
 ### Wzory fizyczne
