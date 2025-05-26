@@ -187,4 +187,25 @@ Podobnie sprawdza się to również dla każdej liczby cyfr poniżej 6. Nie uda�
 
 
 
+## Reszta kodu
+
+Pozostała część kodu odpowiada głównie za wygląd aplikacji oraz obsługę graficznego interfejsu użytkownika (GUI).
+
+* **Klasa _Block_** — reprezentuje pojedynczy blok. Przechowuje informacje o jego masie, pozycji, prędkości i rozmiarze. Zawiera metody do aktualizacji pozycji (_update_), sprawdzania kolizji (_collide_) oraz obliczania nowej prędkości po zderzeniu (_bounce_).
+
+* **Klasa _Simulation_** — odpowiada za logikę fizyczną całego układu. Wykonuje obliczenia związane z ruchem i kolizjami, zlicza zderzenia oraz zarządza krokami czasowymi.
+
+* **Moduł główny (_main_)** — odpowiada za uruchomienie programu, stworzenie okna graficznego, inicjalizację obiektów, kontrolę liczby kroków czasowych oraz obsługę głównej pętli programu.
+
+* **Pygame** — używany jest do:
+
+  * rysowania prostokątów reprezentujących bloki,
+  * wyświetlania liczby zderzeń w czasie rzeczywistym,
+  * odświeżania ekranu w ustalonym tempie (do 60 klatek/s),
+  * odtwarzania dźwięków kolizji,
+  * reagowania na zdarzenia systemowe (np. zamknięcie okna).
+
+
+
+
 
